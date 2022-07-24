@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(35, 87, 35);
+}
+#testing-box {
+     margin-top: 10%;
+    text-align: center;
+}
+
+.dark-mode{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
