@@ -7,7 +7,7 @@ function greetingByName (NEW_MESSAGE){
     
 }
 
-function blackAndWhite(NEW_MESSAGE, MESSAGE_COMPARE){
+function blackAndWhite(){
     document.querySelector('body').classList.add("dark-mode");
 
 }
