@@ -1,12 +1,17 @@
 const USR_INPUT = window.prompt("Please enter your name!");
-const GREETING1 = "Hello and Welcome ";
-const GREETING2 = " thank you for visiting";
+const NEW_MESSAGE = "Hello and Welcome " + USR_INPUT + "," + "</br>" + "thank you for visiting!";
 
 
-
-function greetingByName (){
-    let NEW_MESSAGE = GREETING1 + USR_INPUT + "," + "</br>" + GREETING2;
+function greetingByName (NEW_MESSAGE){
     document.getElementById("greetings-output").innerHTML = NEW_MESSAGE;
+    
 }
 
-greetingByName();
+function blackAndWhite(NEW_MESSAGE, MESSAGE_COMPARE){
+    document.querySelector('body').classList.add("dark-mode");
+
+}
+
+greetingByName(NEW_MESSAGE);
+blackAndWhite();
+
