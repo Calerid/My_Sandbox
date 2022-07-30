@@ -1,7 +1,6 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,21 +8,23 @@
 </head>
 <body>
     <h2>Select How Many Grids to Deploy!</h2>
-    <div class="flex-container">
+    <div class="flex-container" id="main-container">
+        <div id="selection-container">
         <label for="dropdown-menu">My Dropdown Menu</label>
-        <select name="" id="dropdown-menu">
+        <select name="dropdown-menu" id="dropdown-menu">
             <option value="4">4 Boxes</option>
             <option value="8">8 Boxes</option>
             <option value="16">16 Boxes</option>
             <option value="32">32 Boxes</option>
             <option value="64">64 Boxes</option>
         </select>
-
-        <div class="flex-container" id="opt-deploy-container">
-
         </div>
+    </div>
+
+    <div class="grid-container" id="opt-deploy-container">
 
     </div>
     
 </body>
+<script src="script.js"></script>
 </html>

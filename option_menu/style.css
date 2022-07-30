@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: black;
+}
+h2{
+    text-align: center;
+    padding: 2em;
+}
+.flex-container{
+    display: flex;
+}
+.grid-container{
+    display: grid;
+    justify-content: center;
+}
+#main-container{
+    justify-content: center;
+}
+#opt-deploy-container{
+    padding: auto;
+    margin: auto;
+    margin-top: 50px;
+    width: 75vw;
+    height: 800px;
+    background-color: grey;
+}
+
+#opt-deploy-container div{
+    background-color: white;
+}
+div {
+    border-style: double;
+}
